@@ -12,7 +12,6 @@ public class jdbcUtils {
 	static {
 		dataSource= new ComboPooledDataSource();
 	}
-
 	public static QueryRunner GetDataSource(){
 		return new QueryRunner(dataSource);
 	}

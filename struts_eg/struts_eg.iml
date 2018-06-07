@@ -51,5 +51,14 @@
     </orderEntry>
     <orderEntry type="library" name="st_eg" level="project" />
     <orderEntry type="library" name="c3p0-0.9.1.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/javatestfile/mysql-connector-java-5.1.7-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
