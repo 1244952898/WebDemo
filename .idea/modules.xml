@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuildPattern/BuildPattern.iml" filepath="$PROJECT_DIR$/BuildPattern/BuildPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompositePattern/CompositePattern.iml" filepath="$PROJECT_DIR$/CompositePattern/CompositePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day23.Demo(Email)/Day23.Demo(Email).iml" filepath="$PROJECT_DIR$/Day23.Demo(Email)/Day23.Demo(Email).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day23_Email/Day23_Email.iml" filepath="$PROJECT_DIR$/Day23_Email/Day23_Email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageSelectDemo/ImageSelectDemo.iml" filepath="$PROJECT_DIR$/ImageSelectDemo/ImageSelectDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyStructs/MyStructs.iml" filepath="$PROJECT_DIR$/MyStructs/MyStructs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebDemo.iml" filepath="$PROJECT_DIR$/WebDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22/day22.iml" filepath="$PROJECT_DIR$/day22/day22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day27/day27.iml" filepath="$PROJECT_DIR$/day27/day27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day27_demo/day27_demo.iml" filepath="$PROJECT_DIR$/day27_demo/day27_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emp_sys/emp_sys.iml" filepath="$PROJECT_DIR$/emp_sys/emp_sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstDemo/firstDemo.iml" filepath="$PROJECT_DIR$/firstDemo/firstDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2/struts2.iml" filepath="$PROJECT_DIR$/struts2/struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts3/struts3.iml" filepath="$PROJECT_DIR$/struts3/struts3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts_eg/struts_eg.iml" filepath="$PROJECT_DIR$/struts_eg/struts_eg.iml" />
+    </modules>
+  </component>
+</project>

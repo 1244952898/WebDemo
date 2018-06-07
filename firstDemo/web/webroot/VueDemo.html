@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <script src="https://cdn.bootcss.com/vue/2.5.15/vue.js"></script>
+    <style type="text/css">
+        .green {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<div id="fst">
+    <p>{{msg}}</p>
+    <p v-html="hml"></p>
+    <label for="clr">改变颜色</label>
+    <input type="checkbox" id="clr" v-model="class1">
+    <div v-bind:class="{'green':class1}">dddddddddddddddddd</div>
+    {{5+5}}<br>
+    {{ok?"YES":"NO"}}<br>
+    {{words.split('d').reverse().join('ss')}}<br>
+    <div v-bind:id="'list-' + id">菜鸟教程</div>
+    <div v-if="class1">看到了</div>
+    <pre><a v-bind:href="url"  v-bind:target="targt">百度</a></pre>
+    <p>{{ipt}}</p>
+    <input type="text" v-model="ipt">
+    <input type="button" v-on:click="reverse" value="reverse">
+    <div>{{rev|revs}}</div>
+    <div v-if="Math.random()>0.5">
+        <a v-bind:href="url"  v-bind:target="targt">百度</a>
+    </div>
+    <div v-else>
+        <a v-bind:href="urlnew"  v-bind:target="targt">谷歌</a>
+    </div>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el: "#fst",
+        data: {
+            msg: "第一个Vue",
+            hml: "<h2>测试数据</h2>",
+            class1: false,
+            ok: true,
+            words:"abcdefg",
+            id:1,
+            url:'http://www.baidu.com',
+            urlnew:'https://cn.vuejs.org/v2/guide/',
+            ipt:'meizhi',
+            rev:'abcdefg',
+            targt:'_blank'
+        },
+        methods:{
+            reverse:function(){
+                this.ipt = this.ipt.split('').reverse().join('')
+            }
+        },
+        filters:{
+            revs:function(value){
+                if (!value) return '';
+                value = value.toString();
+                return value.charAt(0).toUpperCase() + value.slice(1)+'hij'
+            }
+        }
+    });
+</script>
+</body>
+</html>

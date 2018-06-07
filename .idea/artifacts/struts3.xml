@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="struts3">
+    <output-path>D:/apache-tomcat-6.0.39/webapps/struts3</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="struts3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="struts3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="st2" />
+          <element id="file-copy" path="D:/javatestfile/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

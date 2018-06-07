@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mystruts>
+    <package>
+
+        <action name="login" class="framework.LoginAction" method="Login">
+            <result name="loginSuccess" type="redirect">/index.jsp</result>
+            <result name="loginFail">/login.jsp</result>
+        </action>
+
+        <action name="register" class="framework.RegisterAction" method="Register">
+            <result name="registerSuccess">/login.jsp</result>
+        </action>
+
+    </package>
+</mystruts>

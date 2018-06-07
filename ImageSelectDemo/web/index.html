@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片剪切</title>
+    <script src="WEB-INF/lib/jquery.imgareaselect-0.9.10/scripts/jquery.min.js"></script>
+    <script src="WEB-INF/lib/jquery.imgareaselect-0.9.10/scripts/jquery.imgareaselect.min.js"></script>
+</head>
+<body>
+<div>
+    <input type="file" style="display: none" id="upImg" onchange="changeImg(this)">
+    <label for="upImg" id="preview">
+        <img id="imghead" src="" width="198" height="198" alt="头像">
+    </label>
+</div>
+
+<div class="boxFooter">
+    <input type="hidden" name="x1" value="0">
+    <input type="hidden" name="y1" value="0">
+    <input type="hidden" name="x2" value="100">
+    <input type="hidden" name="y2" value="100">
+    <button name="confirm" id="subPhoto" >确&nbsp;定</button>
+    <div id="imgmsg"></div>
+</div>
+</body>
+</html>
