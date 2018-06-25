@@ -13,4 +13,5 @@
     <include file="fileupload/type.xml"></include>
     <include file="down/downzy.xml"></include>
     <include file="constant.xml" ></include>
+    <include file="ognl/ognl.xml" ></include>
 </struts>

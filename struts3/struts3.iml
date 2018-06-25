@@ -18,6 +18,7 @@
             <file>file://$MODULE_DIR$/src/constant.xml</file>
             <file>file://$MODULE_DIR$/src/fileupload/type.xml</file>
             <file>file://$MODULE_DIR$/src/down/downzy.xml</file>
+            <file>file://$MODULE_DIR$/src/ognl/ognl.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
