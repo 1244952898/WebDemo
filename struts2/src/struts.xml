@@ -6,6 +6,7 @@
 
 <struts>
     <package name="default" extends="struts-default">
+
         <action name="hello" class="HelloAction">
             <result name="success">/success.jsp</result>
             <!--<result name="tutorial" type="redirect">/tutorial/test.action</result>-->
