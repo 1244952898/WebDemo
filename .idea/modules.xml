@@ -17,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/day27_demo/day27_demo.iml" filepath="$PROJECT_DIR$/day27_demo/day27_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/emp_sys/emp_sys.iml" filepath="$PROJECT_DIR$/emp_sys/emp_sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstDemo/firstDemo.iml" filepath="$PROJECT_DIR$/firstDemo/firstDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate04/hibernate04.iml" filepath="$PROJECT_DIR$/hibernate04/hibernate04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring01/spring01.iml" filepath="$PROJECT_DIR$/spring01/spring01.iml" />
       <module fileurl="file://$PROJECT_DIR$/struts2/struts2.iml" filepath="$PROJECT_DIR$/struts2/struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/struts3/struts3.iml" filepath="$PROJECT_DIR$/struts3/struts3.iml" />
       <module fileurl="file://$PROJECT_DIR$/strutsPractise/strutsPractise.iml" filepath="$PROJECT_DIR$/strutsPractise/strutsPractise.iml" />
